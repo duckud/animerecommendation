@@ -1,0 +1,119 @@
+body {
+  background-image: linear-gradient(to bottom, #f0e688, white);
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  font-size: 100%;
+  text-align: center;
+  margin: 1%;
+}
+img{
+  width: 15rem;
+  height: auto;
+  margin: 1rem;
+  align-items: center;
+}
+iframe{
+  width: 35rem;
+  height: 19.688rem;
+  margin-bottom: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  border: 0rem;
+}
+h2 {
+  max-width: 50%;
+}
+p {
+  margin: 1%;
+  position: relative;
+}
+button {
+  box-sizing: border-box;
+  background-color: #ced7d8;
+  font-size: 50%;
+  height: 80%;
+  width: 60%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  border-radius: 1rem;
+}
+footer {
+  font-size: 200%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-top-style: solid;
+  border-top-color: black;
+}
+#footerSignature {
+  font-size: 50%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+.main1-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 15%;
+  max-width: 80rem;
+}
+a{
+  color: black;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  width: 20%;
+  height: 50%;
+  margin: 2%;
+}
+
+@media screen and (max-width: 700px) {
+ .main1-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   max-width: 100%;
+   left: 0%;
+ }
+ .text-container{
+   max-width: 70%;
+   align-items: center;
+   justify-content: center;
+ }
+ img{
+   width: 20rem;
+   align-items: center;
+   justify-content: center; 
+ }
+ h2{
+   align-items: center;
+ }
+ p{
+   align-items: center;
+ }
+ iframe{
+  width: 20rem;
+  height: 10rem; 
+ }
+
+}
+
+
+
+
+
